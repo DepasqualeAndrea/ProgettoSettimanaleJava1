@@ -1,0 +1,31 @@
+package AppMain;
+
+import java.util.Scanner;
+
+public class MainSchema {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		//mando a schermo gli input del metodo
+		
+		System.out.println("insert Audio Title");   //input del titolo 
+		String title = input.hasNextLine();
+		System.out.println("insert Volume");        //input del volume 
+		String title = input.hasNextLine();
+		System.out.println("insert Duration");      //input del durata 
+		String title = input.hasNextLine();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

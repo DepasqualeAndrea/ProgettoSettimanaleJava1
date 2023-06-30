@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\coomi\Documents\Progetto settimanale Java 1\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2152043031.index
+1940395134.index

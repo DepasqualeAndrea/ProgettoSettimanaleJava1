@@ -1,0 +1,24 @@
+package entities;
+
+public class Immagine extends Multimedia implements interfaceImmagine, InterfaceLuminosita {
+	
+	public Immagine(String titolo) {
+		super(titolo);             //metodo per richiamare i  metodi della classe astratta
+	}
+
+	@Override
+	public void lightDown() {
+		
+	}
+	@Override
+	public void lightUp() {
+		
+	}
+	
+	@Override
+	public void mostra() {
+		
+	}
+
+	
+}

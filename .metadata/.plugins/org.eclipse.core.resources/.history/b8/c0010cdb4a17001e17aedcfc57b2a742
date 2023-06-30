@@ -1,0 +1,38 @@
+package entities;
+import java.util.Scanner;
+
+public class AppMain {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+//
+		Multimedia[] music = new Multimedia[5];
+		
+		for(int i = 0; i < 5; i++) {
+		System.out.println("insert Title here:");
+		String title = input.nextLine();
+		}
+		
+		
+		
+		
+		
+
+		
+		System.out.println("insert Volume Here:");
+		int vol = Integer.parseInt(input.nextLine());
+		
+		
+		System.out.println("insert Duration Here:");
+		double duration = Double.parseDouble(input.nextLine());
+		
+		Audio track = new Audio(title, vol, duration);
+		
+		track.player();
+		input.close();
+		
+	}
+
+}

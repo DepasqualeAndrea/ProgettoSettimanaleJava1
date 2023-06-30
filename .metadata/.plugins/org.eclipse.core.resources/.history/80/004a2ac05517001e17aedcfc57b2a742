@@ -1,0 +1,9 @@
+package entities;
+
+public interface InterfaceLuminosita {
+
+	public void lightUp();
+
+	public void lightDown();
+
+}

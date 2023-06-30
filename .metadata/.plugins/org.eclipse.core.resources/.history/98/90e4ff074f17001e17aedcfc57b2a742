@@ -1,0 +1,61 @@
+package entities;
+
+import java.util.Scanner;
+
+public class AppMain {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+//
+		Multimedia[] music = new Multimedia[2];
+
+		for (int i = 0; i < 2; i++) {
+			System.out.println("insert Title here:");
+			String titleone = input.nextLine();
+			System.out.println("Select type of content:");
+			System.out.println("1: audio");
+			System.out.println("2: video");
+			System.out.println("3: img");
+			int section = input.nextInt();
+			input.nextLine();
+			switch (section) {
+
+			case 1:
+				System.out.println("insert duration track");
+				int durataFr = input.nextInt();
+				input.nextLine();
+				System.out.println("insert volume");
+				int volFr = input.nextInt();
+				input.nextLine();
+				break;
+
+			case 2:
+				System.out.println("insert duration track");
+				int durataSc = input.nextInt();
+				input.nextLine();
+				System.out.println("insert volume");
+				int volSc = input.nextInt();
+				input.nextLine();
+				System.out.println("insert bright");
+				int brightSc = input.nextInt();
+				input.nextLine();
+				break;
+			case 3:
+				System.out.println("insert bright");
+				int brightTh = input.nextInt();
+				input.nextLine();
+				break;
+			default:
+				System.out.println("Qualcosa è andato storto! riprova");
+			}
+		}
+	}
+
+	// function per mostrare array
+	public void print(Multimedia[] music) {
+		System.out.println(music);
+	}
+
+}

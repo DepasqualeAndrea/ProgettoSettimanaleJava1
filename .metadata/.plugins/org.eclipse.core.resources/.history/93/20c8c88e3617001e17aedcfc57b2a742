@@ -1,0 +1,12 @@
+package AppMain;
+
+import java.util.Scanner;
+
+public class MainSchema {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+	}
+
+}

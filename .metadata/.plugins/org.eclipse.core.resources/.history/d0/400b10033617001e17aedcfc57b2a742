@@ -1,0 +1,10 @@
+package AppMain;
+
+public class MainSchema {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

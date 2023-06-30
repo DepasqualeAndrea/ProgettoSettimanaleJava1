@@ -1,0 +1,29 @@
+package entities;
+import java.util.Scanner;
+
+public class AppMain {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		//metodo per richiamare l'audio in main 
+		
+		System.out.println("insert Title here:");
+		String title = input.nextLine();
+		
+		System.out.println("insert Volume Here:");
+		int vol = Integer.parseInt(input.nextLine());
+		
+		
+		System.out.println("insert Volume Here:");
+		int duration = Integer.parseInt(input.nextLine());
+		
+		Audio track = new Audio(title, vol, duration);
+		
+		track.player();
+		input.close();
+		
+	}
+
+}
